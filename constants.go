@@ -38,9 +38,9 @@ const maxPartSize = 1024 * 1024 * 1024 * 5
 // operation.
 const maxSinglePutObjectSize = 1024 * 1024 * 1024 * 5
 
-// maxMultipartPutObjectSize - maximum size 5TiB of object for
+// maxMultipartPutObjectSize - maximum size 48TiB of object for
 // Multipart operation.
-const maxMultipartPutObjectSize = 1024 * 1024 * 1024 * 1024 * 5
+const maxMultipartPutObjectSize = 1024 * 1024 * 1024 * 1024 * 48
 
 // unsignedPayload - value to be set to X-Amz-Content-Sha256 header when
 // we don't want to sign the request payload
